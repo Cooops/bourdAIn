@@ -55,7 +55,7 @@ export const models: Models = {
         },
         endpoint: "https://api.anthropic.com/v1",
         model: {
-            [ModelClass.SMALL]: settings.SMALL_ANTHROPIC_MODEL || "claude-3-haiku-20240307",
+            [ModelClass.SMALL]: settings.SMALL_ANTHROPIC_MODEL || "claude-3-5-sonnet-20241022",
             [ModelClass.MEDIUM]: settings.MEDIUM_ANTHROPIC_MODEL || "claude-3-5-sonnet-20241022",
             [ModelClass.LARGE]: settings.LARGE_ANTHROPIC_MODEL || "claude-3-5-sonnet-20241022",
         },
